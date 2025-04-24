@@ -14,14 +14,15 @@ export default function App() {
             <h1 className="text-[#00ff88] text-[30px] font-bold">LOGIN</h1>
           </div>
 
-          <div className="w-full h-[70%] p-[20px]">
+          <div className="w-full h-[65%] p-[20px]">
             <label htmlFor="user" className="text-[#00ff88]">Usuário</label>
             <input type="text" id="user" className="w-full rounded-md p-[10px] bg-[#514768] text-white mb-" />
             <label htmlFor="password" className="text-[#00ff88]">Senha</label>
             <input type="password" id="password" className="w-full rounded-md p-[10px] bg-[#514768] text-white" />
           </div>
 
-          <div className="w-full h-[15%]">
+          <div className="w-full h-[20%] py-[10px] px-[20px]">
+            <button className="w-full h-full bg-[#00ff88] font-bold rounded-md cursor-pointer">Entrar</button>
             
           </div>
         </div>
